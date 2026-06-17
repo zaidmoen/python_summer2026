@@ -1,0 +1,55 @@
+# Task 1: Student Performance Analyzer
+
+## Goal
+Build a Python console program that manages students' marks and analyzes their performance.
+
+You are NOT allowed to use:
+- pandas
+- numpy
+- classes / OOP
+- external libraries
+- AI-generated full solutions
+
+You should use only Python basics:
+- variables
+- input / print
+- if statements
+- loops
+- lists
+- dictionaries
+- functions
+- string formatting
+
+---
+
+## Program Requirements
+
+Your program should allow the user to enter data for multiple students.
+
+For each student, ask for:
+
+1. Student name
+2. Student ID
+3. Marks for 5 subjects:
+   - Math
+   - Programming
+   - English
+   - Physics
+   - Problem Solving
+
+Each mark must be between 0 and 100.
+
+If the user enters an invalid mark, ask again until the input is valid.
+
+---
+
+## Required Features
+
+### 1. Add Students
+
+The program should ask how many students the user wants to enter.
+
+Example:
+
+```text
+How many students do you want to enter? 3
